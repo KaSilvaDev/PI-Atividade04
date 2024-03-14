@@ -1,0 +1,33 @@
+div {
+    display: flex;
+    flex-direction: column-reverse;
+    font-weight: bold;
+}
+
+.container-exercicioB {
+    background-color: grey;
+    align-items: start;
+}
+
+div > div {
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.div_children1 {
+    background-color: #63b1bc;
+}
+
+.div_children2 {
+    background-color: #1f2a44;
+}
+
+.div_children3 {
+    background-color: #ed145b;
+}
+
+.div_children4 {
+    background-color: #efb661;
+}
